@@ -4,7 +4,7 @@
 /package.json
 /README.md
 /crowdin.yml
-
+.history
 # tools
 **/.eslintrc
 **/.prettierrc
