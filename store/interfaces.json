@@ -1,0 +1,6 @@
+{
+  "first-discount":{
+    "component":"FirstDiscount",
+    "render":"client"
+  }
+}
