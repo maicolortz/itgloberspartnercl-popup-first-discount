@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "vtex.css-handles": "0.x",
-    "vtex.modal-layout": "0.x"
+    "vtex.modal-layout": "0.x",
+    "vtex.store-newsletter": "1.x",
+    "vtex.admin-customers-graphql": "3.x"
   },
   "registries": [
     "smartcheckout"
