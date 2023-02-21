@@ -4,8 +4,6 @@ query{
       firstName
 			id,
       email,
-      isNewsletterOptIn,
-      stateRegistration
-    }
+      isNewsletterOptIn    }
   }
 }
