@@ -1,0 +1,15 @@
+mutation CREATE_CLIENT($email:String){
+  saveDocument(document:{
+    fields:[
+      {key:"email",
+        value:$email
+      },
+      {key:"isNewsletterOptIn",
+        value:"true"
+      }
+    ]
+  }){
+    href
+  }
+
+}
