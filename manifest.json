@@ -14,7 +14,9 @@
     "vtex.css-handles": "0.x",
     "vtex.modal-layout": "0.x",
     "vtex.store-newsletter": "1.x",
-    "vtex.admin-customers-graphql": "3.x"
+    "vtex.admin-customers-graphql": "3.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.device-detector": "0.x"
   },
   "registries": [
     "smartcheckout"
