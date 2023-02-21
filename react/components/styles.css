@@ -12,10 +12,18 @@ color: white;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+.modal__backdrop{
+  z-index: 9;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
 .modal__box{
+  z-index: 9999;
   display: flex;
   gap: 10px;
   background-color: #3d3d3d;
@@ -27,10 +35,10 @@ color: white;
   border-radius: 1rem;
 }
 .modal__header{
-
+align-items: end;
 }
 .modal__close{
-
+border-radius: 50%;
 }
 .info{
 
