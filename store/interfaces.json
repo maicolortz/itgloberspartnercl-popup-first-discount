@@ -1,6 +1,7 @@
 {
   "first-discount":{
     "component":"FirstDiscount",
+    "composition":"children",
     "render":"client"
   }
 }
